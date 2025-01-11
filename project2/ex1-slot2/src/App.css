@@ -1,0 +1,119 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+td,
+th,
+table {
+  border: 1px solid black;
+}
+/* Container styles */
+.react-logo-card {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+/* React logo styles */
+.react-logo {
+  width: 300px;
+  margin-bottom: 10px;
+}
+
+/* Horizontal divider styles */
+.divider {
+  width: 50%;
+  margin: 10px auto;
+}
+
+/* Description text styles */
+.description {
+  font-size: 30px;
+  font-style: italic;
+  color: #61dafb;
+}
+
+.description2 {
+  font-size: 20px;
+  font-style: italic;
+  color: gray;
+}
+
+/* Navbar container */
+.navbar {
+  background-color: #4f4f4f; /* Dark gray */
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Navigation links container */
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px; /* Space between items */
+  margin: 5px;
+  padding: 0;
+}
+
+/* Individual nav items */
+.nav-item a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease;
+}
+
+/* Specific styles for "Home" button */
+.nav-item.home a {
+  background-color: #4caf50; /* Green background */
+  color: white;
+  border-radius: 5px;
+}
+
+/* Specific styles for "Login" button */
+.nav-item.login a {
+  background-color: black; /* Black background */
+  color: white;
+  border-radius: 5px;
+}
+
+/* Hover effect for all links */
+.nav-item a:hover {
+  background-color: white;
+  color: black;
+}
