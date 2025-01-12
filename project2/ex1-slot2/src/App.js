@@ -1,6 +1,7 @@
 import "./App.css";
 import React, { useState } from "react";
 import logo from "./logo.svg";
+
 function sum(...args) {
   return args.reduce((a, b) => a + b);
 }
@@ -18,7 +19,28 @@ function parseQueryParams(url) {
 }
 
 function App() {
-  // 3.	Do all requires that based on three variables as below
+  // 5. Display list of course
+  const course = ["React", "ReactNative", "NodeJs"];
+  //2.1. Exercise People
+  const people = [
+    { name: "Jack", age: 50 },
+    { name: "Michael", age: 9 },
+    { name: "John", age: 40 },
+    { name: "Ann", age: 19 },
+    { name: "Elisabeth", age: 16 },
+  ];
+  // Find the first person who is a teenager (age >= 10 and age <= 20)
+  const firstTeenager = people.find((person) => person.age >= 10 && person.age <= 20);
+  // Find all people who are teenagers (age >= 10 and age <= 20)
+  const allTeenagers = people.filter((person) => person.age >= 10 && person.age <= 20);
+  // Check if every person is a teenager (age >= 10 and age <= 20)
+  const isEveryPersonTeenager = people.every((person) => person.age >= 10 && person.age <= 20);
+  // Check if any person is a teenager (age >= 10 and age <= 20)
+  const isAnyPersonTeenager = people.some((person) => person.age >= 10 && person.age <= 20);
+  // 2.2  Exercise Array
+  const array = [1, 2, 3, 4, 5];
+  const sum2 = array.reduce((a, b) => a + b, 0);
+  // 2.3.	Do all requires that based on three variables as below
   const companies = [
     { name: "Company One", category: "Finance", start: 1981, end: 2004 },
     { name: "Company Two", category: "Retail", start: 1992, end: 2008 },
@@ -73,7 +95,7 @@ function App() {
 
   //----------------------------------------------
   return (
-    <div>
+    <>
       <div style={{ textAlign: "center" }}>
         <h1>
           <span style={{ color: "black" }}>Hello </span>
@@ -81,7 +103,7 @@ function App() {
         </h1>
       </div>
       <div className="react-logo-card">
-        <img src={logo} className="App-logo" alt="logo" />;
+        <img src={logo} className="App-logo" alt="logo" />
         <hr className="divider" />
         <p className="description">
           <strong>This is the React logo!</strong>
@@ -107,6 +129,39 @@ function App() {
             </li>
           </ul>
         </nav>
+      </div>
+      <div style={{ textAlign: "center" }}>
+        <h1>
+          <span style={{ color: "blue", fontWeight: "bold" }}>This is JSX</span>
+        </h1>
+      </div>
+      <div className="Exercises1.5">
+        <div style={{ padding: "20px" }}>
+          <h1>Course names</h1>
+          <ul>
+            {course.map((course, index) => (
+              <li key={index}>{course}</li>
+            ))}
+          </ul>
+        </div>
+      </div>
+      <div className="Exercises2.1">
+        <h3>First Teenager</h3>
+        <p>{firstTeenager ? `Name: ${firstTeenager.name}, Age: ${firstTeenager.age}` : "None"}</p>
+        <h3>All Teenagers</h3>
+        <p>
+          {allTeenagers.length > 0
+            ? allTeenagers.map((person) => `Name: ${person.name}, Age: ${person.age}`).join(", ")
+            : "None"}
+        </p>
+        <h3>Is Every Person Teenager</h3>
+        <p>{isEveryPersonTeenager.toString()}</p>
+        <h3>Is Any Person Teenager</h3>
+        <p>{isAnyPersonTeenager.toString()}</p>
+      </div>
+      <div className="Exercises2.2">
+        <h1>Sum of Array {array} </h1>
+        <p>{sum2}</p>
       </div>
       <div>
         <h1>Companies List</h1>
@@ -179,20 +234,24 @@ function App() {
         <h1>Print New Object</h1>
         <p>{JSON.stringify(newObject)}</p>
       </div>
+
       <div>
         <h1>Create a function that takes an unknown number of arguments that are numbers and return their sum</h1>
         <p>Sum of 1, 2, 3, 4, 5: {sum(1, 2, 3, 4, 5)}</p>
-        <h1>Add number in an array</h1>
       </div>
       <div>
-        <input onChange={(e) => setNumber(e.target.value)} placeholder="Enter numbers" />
-        <button onClick={() => handleGenerate(number)}>Generate</button>
-      </div>
-      <div>
-        <h3>Generated Numbers :</h3>
-        {unknowArray.map((num, index) => (
-          <> {num}</>
-        ))}
+        <div>
+          <h1>Add number in an array</h1>
+          <input onChange={(e) => setNumber(e.target.value)} placeholder="Enter numbers" />
+          <button onClick={() => handleGenerate(number)}>Generate</button>
+        </div>
+
+        <div>
+          <h3>Generated Numbers :</h3>
+          {unknowArray.map((num, index) => (
+            <> {num}</>
+          ))}
+        </div>
       </div>
       <div>
         <h1>Get the street value from the person object</h1>
@@ -210,7 +269,8 @@ function App() {
         <h4>Query Parameters:</h4>
         <pre>{JSON.stringify(queryParams, null, 2)}</pre>
       </div>
-    </div>
+      <div></div>
+    </>
   );
 }
 
