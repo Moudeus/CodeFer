@@ -1,6 +1,8 @@
 import "./App.css";
 import React, { useState } from "react";
 import logo from "./logo.svg";
+import HandleRec from "./components/HandleRec";
+import HandleTri from "./components/HandleTri";
 
 function sum(...args) {
   return args.reduce((a, b) => a + b);
@@ -77,12 +79,13 @@ function App() {
   };
 
   const [counter, setCounter] = useState(0);
-  const [url, setUrl] = useState("");
-  const [queryParams, setQueryParams] = useState({});
 
   const increment = () => {
     setCounter((prevCounter) => prevCounter + 1);
   };
+
+  const [url, setUrl] = useState("");
+  const [queryParams, setQueryParams] = useState({});
 
   const handleUrlChange = (e) => {
     setUrl(e.target.value);
@@ -92,6 +95,9 @@ function App() {
     const params = parseQueryParams(url);
     setQueryParams(params);
   };
+
+  const [triToggle, setTriToggle] = useState(false);
+  const [recToggle, setRecToggle] = useState(false);
 
   //----------------------------------------------
   return (
@@ -269,7 +275,23 @@ function App() {
         <h4>Query Parameters:</h4>
         <pre>{JSON.stringify(queryParams, null, 2)}</pre>
       </div>
-      <div></div>
+      <div>
+        <div>
+          <button
+            style={recToggle === true ? { backgroundColor: "#333", color: "#fff" } : {}}
+            onClick={() => setRecToggle(!recToggle)}>
+            Rectange
+          </button>
+          <button
+            style={triToggle === true ? { backgroundColor: "#333", color: "#fff" } : {}}
+            onClick={() => setTriToggle(!triToggle)}>
+            Triangle
+          </button>
+        </div>
+        {recToggle && <HandleRec />}
+
+        {triToggle && <HandleTri />}
+      </div>
     </>
   );
 }
