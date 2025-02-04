@@ -1,0 +1,34 @@
+.custom-navbar {
+  background-color: #333333 !important;
+}
+
+.carousel-image {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.container-fluid {
+  padding: 0 !important;
+  margin: 0;
+  width: 100vw;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
