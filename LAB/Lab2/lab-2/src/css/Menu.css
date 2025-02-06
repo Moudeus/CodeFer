@@ -1,0 +1,26 @@
+.sale-tag {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: yellow;
+  color: black;
+  padding: 5px 10px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 5px;
+  z-index: 1;
+}
+.old-price {
+  text-decoration: line-through;
+  color: grey;
+  margin-right: 10px;
+}
+
+.new-price {
+  color: red;
+  font-weight: bold;
+}
+
+.body {
+  background-color: black;
+}

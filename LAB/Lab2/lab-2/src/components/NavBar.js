@@ -2,10 +2,12 @@ import { Container, Nav, Navbar, Button, Form } from "react-bootstrap";
 import { memo } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
-const NavBarComponents = () => {
+import "../css/NavBar.css";
+
+const NavBar = () => {
   return (
     <>
-      <Navbar className="custom-navbar" data-bs-theme="dark">
+      <Navbar className="custom-navbar fixed-top" data-bs-theme="dark">
         <Container>
           <Navbar.Brand href="#home">Pizza House</Navbar.Brand>
           <Nav className="me-auto">
@@ -25,4 +27,4 @@ const NavBarComponents = () => {
   );
 };
 
-export default memo(NavBarComponents);
+export default memo(NavBar);
