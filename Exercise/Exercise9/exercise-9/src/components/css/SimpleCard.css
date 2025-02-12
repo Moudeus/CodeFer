@@ -1,0 +1,20 @@
+.simple-card {
+  display: flex;
+  align-items: center;
+}
+
+.simple-card img {
+  width: 700px;
+  margin-right: 50px 0 0 50px;
+}
+
+.simple-card h2,
+.simple-card p {
+  margin: 30px 0 0 250px;
+}
+
+.simple-card .text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
