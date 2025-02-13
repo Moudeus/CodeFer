@@ -38,7 +38,7 @@ function Menu() {
   ];
 
   return (
-    <Container className="my-5" >
+    <Container className="my-5">
       <Row>
         {menuItems.map((item, index) => (
           <Col md={3} key={index}>
@@ -50,7 +50,7 @@ function Menu() {
                 <Card.Text>
                   <span className="old-price">{item.oldPrice}</span> <span className="new-price">{item.newPrice}</span>
                 </Card.Text>
-                <Button variant="primary">Order Now</Button>
+                <Button variant="dark">Order Now</Button>
               </Card.Body>
             </Card>
           </Col>

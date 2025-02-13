@@ -6,7 +6,7 @@ function Contact() {
     <div className="container">
       <Row className="text-center">
         <Col>
-          <h3 className="mt-5 text-white">I wish...</h3>
+          <h3 className="mt-5 text-white">Contact With US</h3>
         </Col>
       </Row>
       <Form>
