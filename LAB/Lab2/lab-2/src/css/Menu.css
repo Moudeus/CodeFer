@@ -28,4 +28,33 @@
 .card:hover {
   transform: translateY(-10px);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  transform: scale(1.05);
 }
+/* .overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1050;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.overlay.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.card-expanded {
+  position: relative;
+  width: 80vw;
+  height: 80vh;
+  transform: rotate(360deg) scale(1.2);
+  transition: transform 0.5s ease;
+} */

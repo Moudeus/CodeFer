@@ -1,0 +1,79 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.text-orange {
+  color: #ea8f2e;
+}
+.bg-orange {
+  background-color: #ea8f2e;
+}
+
+.bg-f2ca81 {
+  background-color: #f2ca81;
+}
+
+.bg-eacdad {
+  background-color: #eacdad;
+}
+
+.fpt-logo {
+  width: 250px;
+  height: 100%;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+}
+
+.home-student {
+  background-color: rgb(232, 236, 239);
+  width: 200px;
+}
+
+.icon-second {
+  width: 40px;
+  height: 40px;
+}
+
+.stu-img {
+  width: 100%;
+  height: 700px;
+  object-fit: cover;
+}
