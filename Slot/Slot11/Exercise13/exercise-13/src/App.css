@@ -1,10 +1,19 @@
+body {
+  background: linear-gradient(30deg, #ff0000, #0055ff);
+  background-size: 400% 400%;
+  animation: gradientAnimation 3s ease infinite;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
 .App {
   text-align: center;
   max-width: 600px;
-  margin: 0 auto;
-  background: linear-gradient(270deg, #ffd3d3, #cdf9f9);
-  background-size: 400% 400%;
-  animation: gradientAnimation 3s ease infinite;
+  background-color: rgba(255, 255, 255, 0.8);
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -70,8 +79,4 @@ h2 {
   background-color: rgba(255, 255, 255, 0.8);
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-body {
-  background-color: #282c34;
 }

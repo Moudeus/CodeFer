@@ -1,0 +1,38 @@
+.dishes-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.dish-card {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  width: 300px;
+  text-align: center;
+}
+
+.dish-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.dish-info {
+  margin-top: 10px;
+}
+
+.dish-info h2 {
+  margin: 10px 0;
+}
+
+.dish-info p {
+  margin: 5px 0;
+}
