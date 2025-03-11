@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background: #000;
+  overflow: hidden;
+}
+
+.App {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+.bubble {
+  position: absolute;
+  border-radius: 50%;
+  background: linear-gradient(45deg, #ff0f7b, #f89b29);
+  filter: blur(5px);
+  animation: float 20s linear infinite;
+  z-index: 0;
+}
+
+@keyframes float {
+  0% {
+    transform: translate(0, 0) scale(1);
+  }
+  33% {
+    transform: translate(30vw, -30vh) scale(1.2);
+  }
+  66% {
+    transform: translate(-30vw, 30vh) scale(0.8);
+  }
+  100% {
+    transform: translate(0, 0) scale(1);
+  }
+}
+
+/* Generate 10 bubbles with different sizes, positions, and animations */
+.bubble:nth-child(1) {
+  width: 100px;
+  height: 100px;
+  left: 10%;
+  top: 20%;
+  animation-duration: 15s;
+}
+.bubble:nth-child(2) {
+  width: 150px;
+  height: 150px;
+  left: 70%;
+  top: 10%;
+  animation-duration: 18s;
+}
+.bubble:nth-child(3) {
+  width: 80px;
+  height: 80px;
+  left: 30%;
+  top: 50%;
+  animation-duration: 20s;
+}
+.bubble:nth-child(4) {
+  width: 120px;
+  height: 120px;
+  left: 80%;
+  top: 60%;
+  animation-duration: 22s;
+}
+.bubble:nth-child(5) {
+  width: 90px;
+  height: 90px;
+  left: 50%;
+  top: 30%;
+  animation-duration: 25s;
+}
+.bubble:nth-child(6) {
+  width: 130px;
+  height: 130px;
+  left: 20%;
+  top: 70%;
+  animation-duration: 17s;
+}
+.bubble:nth-child(7) {
+  width: 110px;
+  height: 110px;
+  left: 60%;
+  top: 40%;
+  animation-duration: 21s;
+}
+.bubble:nth-child(8) {
+  width: 140px;
+  height: 140px;
+  left: 40%;
+  top: 80%;
+  animation-duration: 19s;
+}
+.bubble:nth-child(9) {
+  width: 95px;
+  height: 95px;
+  left: 90%;
+  top: 85%;
+  animation-duration: 23s;
+}
+.bubble:nth-child(10) {
+  width: 160px;
+  height: 160px;
+  left: 15%;
+  top: 15%;
+  animation-duration: 16s;
+}
+
+/* Multiple gradient backgrounds for bubbles */
+.bubble:nth-child(2n) {
+  background: linear-gradient(45deg, #00ff87, #60efff);
+}
+.bubble:nth-child(3n) {
+  background: linear-gradient(45deg, #0061ff, #60efff);
+}
+.bubble:nth-child(4n) {
+  background: linear-gradient(45deg, #ff0f7b, #f89b29);
+}
