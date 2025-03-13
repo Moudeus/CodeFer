@@ -16,7 +16,7 @@ code {
 #root {
   min-height: 100vh;
   padding: 2rem 0;
-  background: linear-gradient(135deg, rgba(234, 163, 255, 0.3) 0%, rgba(0, 0, 0, 0.3) 100%);
+  background: linear-gradient(135deg, rgba(66, 39, 90, 0.3) 0%, rgba(115, 75, 109, 0.3) 100%);
 }
 
 .example-section {

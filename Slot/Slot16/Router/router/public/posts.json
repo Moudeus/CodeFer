@@ -1,0 +1,17 @@
+[
+  {
+    "id": "1",
+    "title": "React Router Basics",
+    "content": "This post explains the basics of React Router in a React application."
+  },
+  {
+    "id": "2",
+    "title": "React Bootstrap Introduction",
+    "content": "This post introduces how to use React Bootstrap to create beautiful UIs."
+  },
+  {
+    "id": "3",
+    "title": "JavaScript ES6 Features",
+    "content": "This post discusses the new features introduced in JavaScript ES6."
+  }
+]
