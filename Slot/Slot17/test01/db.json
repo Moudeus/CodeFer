@@ -1,0 +1,98 @@
+{
+    "Products": [
+      {
+        "id": 1,
+        "name": "Wireless Mouse",
+        "category": "Electronics",
+        "price": "$25.99",
+        "stock": 150,
+        "description": "A high-precision wireless mouse for comfortable use.",
+        "image": "/images/wireless-mouse.jpg"
+      },
+      {
+        "id": 2,
+        "name": "Bluetooth Speaker",
+        "category": "Electronics",
+        "price": "$49.99",
+        "stock": 75,
+        "description": "Portable Bluetooth speaker with great sound quality.",
+        "image": "/images/bluetooth-speaker.jpg"
+      },
+      {
+        "id": 3,
+        "name": "Smartwatch",
+        "category": "Electronics",
+        "price": "$199.99",
+        "stock": 50,
+        "description": "Smartwatch with heart rate monitor and fitness tracking.",
+        "image": "/images/smartwatch.jpg"
+      },
+      {
+        "id": 4,
+        "name": "Wireless Keyboard",
+        "category": "Electronics",
+        "price": "$49.99",
+        "stock": 100,
+        "description": "A wireless keyboard with a sleek design and comfortable keys.",
+        "image": "/images/wireless-keyboard.jpg"
+      },
+      {
+        "id": 5,
+        "name": "Laptop Bag",
+        "category": "Accessories",
+        "price": "$29.99",
+        "stock": 200,
+        "description": "A durable and stylish laptop bag for everyday use.",
+        "image": "/images/laptop-bag.jpg"
+      },
+      {
+        "id": 6,
+        "name": "Travel Backpack",
+        "category": "Accessories",
+        "price": "$39.99",
+        "stock": 100,
+        "description": "A versatile and spacious backpack for travel and outdoor activities.",
+        "image": "/images/travel-backpack.jpg"
+      },
+      {
+        "id": 7,
+        "name": "Leather Wallet",
+        "category": "Accessories",
+        "price": "$19.99",
+        "stock": 150,
+        "description": "A classic leather wallet with multiple card slots and compartments.",
+        "image": "/images/leather-wallet.jpg"
+      }
+    ],
+    "UserAccounts": [
+      {
+        "id": 1,
+        "username": "adminuser",
+        "password": "admin1234",
+        "account_type": "admin",
+        "status": "active"
+      },
+      {
+        "id": 2,
+        "username": "janedoe",
+        "password": "password567",
+        "account_type": "user",
+        "status": "active"
+      },
+      {
+        "id": 3,
+        "username": "mikejones",
+        "password": "password890",
+        "account_type": "user",
+        "status": "inactive"
+      },
+      {
+        "id": 4,
+        "username": "guest",
+        "password": "guest123",
+        "account_type": "guest",
+        "status": "active"
+      }
+    ]
+  }
+  
