@@ -93,7 +93,7 @@
     {
       "id": "776c",
       "userId": "8",
-      "productId": "1",
+      "productId": null,
       "rating": 5,
       "comment": "keke",
       "date": "2025-03-24T15:40:17.897Z"
@@ -101,7 +101,7 @@
     {
       "id": "8075",
       "userId": "8",
-      "productId": "1",
+      "productId": null,
       "rating": 1,
       "comment": "như hạch",
       "date": "2025-03-24T15:40:40.318Z"
@@ -109,7 +109,7 @@
     {
       "id": "410d",
       "userId": "7",
-      "productId": "1",
+      "productId": null,
       "rating": 4,
       "comment": "kkaaa",
       "date": "2025-03-24T15:54:39.196Z"
@@ -117,7 +117,7 @@
     {
       "id": "a5f6",
       "userId": "2",
-      "productId": "2",
+      "productId": null,
       "rating": 5,
       "comment": "bla",
       "date": "2025-03-24T20:14:21.767Z"
@@ -125,18 +125,15 @@
     {
       "id": "933b",
       "userId": 9,
-      "productId": "1",
+      "productId": null,
       "rating": 5,
       "comment": "bla",
       "date": "2025-03-24T20:24:43.624Z"
     },
     {
-      "id": "767d",
-      "userId": "2",
-      "productId": "1",
       "id": "3d66",
       "userId": "7",
-      "productId": "3",
+      "productId": null,
       "rating": 5,
       "comment": "yeeee",
       "date": "2025-03-25T01:15:04.162Z"
@@ -144,35 +141,51 @@
   ],
   "products": [
     {
-      "id": "1",
-      "name": "T-shirt for professional developer",
-      "price": 250005,
-      "description": "This is one of the best our product, providing AI Agent, supporting while seating of the chair for coding.",
-      "imageUrl": "/images/ao-phong-nam.jpg",
-      "reviews": [1, 3, "fddd", "7c5c", "776c", "3fc3", "2d9e", "933b"]
-    },
-    {
-      "id": "2",
-      "name": "Skimmy girl jean",
-      "price": 450000,
-      "description": "Good jean, Good cotton for good girl, You'll see how beauty you are!",
-      "imageUrl": "/images/quan-jeans-nu.jpg",
-      "reviews": [2, 4]
-    },
-    {
-      "id": "3",
-      "name": "Unisex sport shooes",
-      "price": 80000,
-      "description": "The best shooes ever that Ronaldo begging to buy it!",
-      "imageUrl": "/images/giay-the-thao.jpg",
+      "id": "1742889337465",
+      "name": "Nike Pegasus Premium",
+      "price": 6179000,
+      "description": "The Pegasus Premium supercharges responsive cushioning with a triple stack of our most powerful running technologies: ZoomX foam, a sculpted Air Zoom unit and ReactX foam. It's the most responsive Pegasus ever, providing high energy return unlike any other. With a lighter-than-air upper, it decreases weight and increases breathability so you can fly faster.\n\n\nColour Shown: White/Summit White/Volt/Black\nStyle: HQ2592-100\nCountry/Region of Origin: Vietnam",
+      "imageUrl": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/9cda7208-a753-4932-b8b3-88574e240616/NIKE+PEGASUS+PREMIUM.png",
       "reviews": []
     },
     {
-      "id": "4",
-      "name": "Testing payment product",
-      "price": 10000,
-      "description": "Developer viết vài chữ TypeScript thì không biết gì về ReactJs",
-      "imageUrl": "/images/testing.jpg",
+      "id": "1742889492828",
+      "name": "Nike Court Vision Low",
+      "price": 2069000,
+      "description": "In love with the retro look of '80s basketball but have a thing for the fast-paced culture of today's game? Meet the Court Vision Low. A classic remixed, its crisp upper and stitched overlays keep the soul of the original style. The plush, low-cut collar keeps it sleek and comfortable for your world.\n\n\nColour Shown: Sail/Light Orewood Brown/White/Black\nStyle: FQ8075-133\nCountry/Region of Origin: India",
+      "imageUrl": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/44f222ab-96b6-43b9-82e7-9a1bd888611d/NIKE+COURT+VISION+LO.png",
+      "reviews": []
+    },
+    {
+      "id": "1742889596985",
+      "name": "Nike P-6000",
+      "price": 3239000,
+      "description": "A mash-up of past Pegasus sneakers, the P-6000 takes early-2000s running to modern heights. Featuring airy mesh and sporty lines, it's the perfect mix of head-turning looks and breathable comfort. Plus, its foam cushioning adds a lifted, athletics-inspired stance and unbelievable cushioning.\n\n\nColour Shown: Metallic Summit White/Pure Platinum/Wolf Grey/White\nStyle: FV6603-101\nCountry/Region of Origin: Vietnam",
+      "imageUrl": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/fa1bceaf-21bc-44b5-853b-33eac3c34e2b/WMNS+NIKE+P-6000.png",
+      "reviews": []
+    },
+    {
+      "id": "1742889650307",
+      "name": "Jordan Spizike Low",
+      "price": 4699000,
+      "description": "The Spizike takes elements of five classic Jordans, combines them and gives you one iconic sneaker. It's an homage to Spike Lee formally introducing Hollywood and hoops in a culture moment. You get a great-looking pair of kicks with some history. What more can you ask for? Ya dig?\n\n\nColour Shown: White/Armoury Navy/Aegean Storm/Gym Red\nStyle: HM3712-164\nCountry/Region of Origin: Vietnam",
+      "imageUrl": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/175f845d-d6c9-48fa-a799-0f9c57fab37c/JORDAN+SPIZIKE+LOW.png",
+      "reviews": []
+    },
+    {
+      "id": "1742889711003",
+      "name": "Nike V2K Run",
+      "price": 3519000,
+      "description": "Fast-forward. Rewind. Doesn't matter—this shoe takes retro into the future. The V2K remasters everything you love about the Vomero in a look pulled straight from an early '00s running catalogue. Layer up in a mixture of flashy metallics, referential plastic details and a midsole with a perfectly vintage aesthetic. And the chunky heel makes sure wherever you go, it's in comfort.\n\n\nColour Shown: Summit White/Pure Platinum/Light Iron Ore/Metallic Silver\nStyle: FD0736-100\nCountry/Region of Origin: Vietnam",
+      "imageUrl": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/2fb6ff59-aca1-4f1f-a836-0888d4f119a6/W+NIKE+V2K+RUN.png",
+      "reviews": []
+    },
+    {
+      "id": "1742889751317",
+      "name": "Luka 3 PF",
+      "price": 3829000,
+      "description": "Shift your game into high gear with the lightest Luka yet. Designed to help you create space through acceleration, the Luka 3 features full-length Cushlon 3.0 foam for a smooth heel-to-toe transition. A strong but flexible plate underfoot brings lateral containment, helping you drive out of your step-back to attack the basket. We built speed into the design as well, helping you look 100 as you blow past.\n\n\nColour Shown: White/Grey Fog/Siren Red/Black\nStyle: FQ7455-106\nCountry/Region of Origin: Vietnam",
+      "imageUrl": "https://static.nike.com/a/images/t_PDP_936_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/05d712c8-6a44-43aa-88fc-0f36a36c505a/JORDAN+LUKA+3+TB+PF.png",
       "reviews": []
     }
   ],
@@ -187,7 +200,10 @@
           "price": 450000,
           "description": "Quần jeans ôm sát, tôn dáng, chất liệu co giãn thoải mái.",
           "imageUrl": "/images/quan-jeans-nu.jpg",
-          "reviews": [2, 4]
+          "reviews": [
+            2,
+            4
+          ]
         },
         {
           "id": "1",
@@ -195,7 +211,10 @@
           "price": 250000,
           "description": "Áo phông chất liệu cotton thoáng mát, thiết kế trẻ trung.",
           "imageUrl": "/images/ao-phong-nam.jpg",
-          "reviews": [1, 3]
+          "reviews": [
+            1,
+            3
+          ]
         },
         {
           "id": "3",
@@ -227,7 +246,10 @@
           "price": 250000,
           "description": "Áo phông chất liệu cotton thoáng mát, thiết kế trẻ trung.",
           "imageUrl": "/images/ao-phong-nam.jpg",
-          "reviews": [1, 3]
+          "reviews": [
+            1,
+            3
+          ]
         }
       ],
       "total": 3950000,
@@ -243,7 +265,10 @@
           "price": 450000,
           "description": "Quần jeans ôm sát, tôn dáng, chất liệu co giãn thoải mái.",
           "imageUrl": "/images/quan-jeans-nu.jpg",
-          "reviews": [2, 4]
+          "reviews": [
+            2,
+            4
+          ]
         },
         {
           "id": "3",
@@ -267,7 +292,10 @@
           "price": 250000,
           "description": "Áo phông chất liệu cotton thoáng mát, thiết kế trẻ trung.",
           "imageUrl": "/images/ao-phong-nam.jpg",
-          "reviews": [1, 3]
+          "reviews": [
+            1,
+            3
+          ]
         },
         {
           "id": "3",
@@ -291,7 +319,10 @@
           "price": 250000,
           "description": "Áo phông chất liệu cotton thoáng mát, thiết kế trẻ trung.",
           "imageUrl": "/images/ao-phong-nam.jpg",
-          "reviews": [1, 3]
+          "reviews": [
+            1,
+            3
+          ]
         },
         {
           "id": "2",
@@ -299,7 +330,10 @@
           "price": 450000,
           "description": "Quần jeans ôm sát, tôn dáng, chất liệu co giãn thoải mái.",
           "imageUrl": "/images/quan-jeans-nu.jpg",
-          "reviews": [2, 4]
+          "reviews": [
+            2,
+            4
+          ]
         }
       ],
       "total": 3350000,
@@ -374,11 +408,15 @@
       "user": 7,
       "items": [
         {
-          "productId": "1",
-          "quantity": 2
+          "productId": "1742889337465",
+          "quantity": 1
+        },
+        {
+          "productId": "1742889492828",
+          "quantity": 1
         }
       ],
-      "total": 500010
+      "total": 8248000
     }
   ]
 }
