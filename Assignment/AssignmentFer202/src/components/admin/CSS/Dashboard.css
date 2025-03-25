@@ -1,0 +1,60 @@
+.header{
+    background-color:#0b0d0c;
+}
+/* Sidebar Wrapper (ẩn/hiện) */
+.sidebar-wrapper {
+    position: fixed;
+    left: -250px; /* Sidebar ẩn bên trái */
+    width: 250px;
+    height: 100vh;
+    background-color: #fffed1;
+    padding: 20px 10px;
+    transition: all 0.3s ease-in-out; /* Hiệu ứng trượt */
+    border-right: 1px solid #ddd;
+    z-index: 1000;
+}
+
+.sidebar-wrapper.open {
+    left: 0; /* Khi mở, sidebar trượt vào */
+}
+
+/* Nội dung chính sẽ đẩy sang bên khi sidebar mở */
+.main-content {
+    margin-left: 0;
+    transition: margin-left 0.3s ease-in-out;
+}
+
+.sidebar-wrapper.open + .main-content {
+    margin-left: 250px; /* Đẩy nội dung sang phải khi sidebar mở */
+}
+
+/* Header */
+.header {
+    background-color: #343a40;
+}
+
+.header_text {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.dashboard-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 1020; /* Đảm bảo nằm trên các thành phần khác */
+    background-color: #333; /* Giữ nền khi scroll */
+}
+
+.sidebar-wrapper {
+    position: sticky;
+    top: 0;
+    height: 100vh; /* Đảm bảo sidebar giữ nguyên chiều cao */
+    background-color: #f8f9fa;
+    z-index: 1010; /* Đảm bảo nằm dưới header nếu cần */
+}
+

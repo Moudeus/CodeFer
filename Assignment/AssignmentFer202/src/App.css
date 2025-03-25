@@ -1,0 +1,31 @@
+/* Root level styles for footer positioning */
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.App {
+  flex: 1 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+.custom-link {
+  text-decoration: none; /* Bỏ gạch chân */
+  color: rgba(0, 0, 0, 0.5); /* Màu xám mờ */
+}
+
+.custom-link:hover {
+  color: rgba(0, 0, 0, 0.7); /* Đậm hơn khi hover */
+}

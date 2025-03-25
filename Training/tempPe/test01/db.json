@@ -1,0 +1,121 @@
+{
+  "accounts": [
+    {
+      "id": 1,
+      "username": "john_doe",
+      "email": "john.doe@example.com",
+      "password": "121212",
+      "role": "user",
+      "status": "active"
+    },
+    {
+      "id": 2,
+      "username": "jane_smith",
+      "email": "jane.smith@example.com",
+      "password": "131313",
+      "role": "user",
+      "status": "active"
+    },
+    {
+      "id": 3,
+      "username": "admin_user",
+      "email": "admin@example.com",
+      "password": "141415",
+      "role": "admin",
+      "status": "active"
+    },
+    {
+      "id": 4,
+      "username": "manager_user",
+      "email": "manager@example.com",
+      "password": "232323",
+      "role": "manager",
+      "status": "active"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Product 1",
+      "price": 29.99,
+      "description": "Description for product 1",
+      "category": "Category A",
+      "imageUrl": "https://giaysneakerhcm.com/wp-content/uploads/2022/03/ao-thun-gucci-nam-nu-3.jpg",
+      "reviews": []
+    },
+    {
+      "id": 2,
+      "name": "Product 2",
+      "price": 49.99,
+      "description": "Description for product 2",
+      "category": "Category B",
+      "imageUrl": "https://m.media-amazon.com/images/I/71qW0MrDiEL._AC_UL1500_.jpg",
+      "reviews": [2]
+    }
+  ],
+  "reviews": [
+    {
+      "id": 1,
+      "userId": 1,
+      "productId": 1,
+      "rating": 5,
+      "comment": "Great product!",
+      "date": "2024-03-24"
+    },
+    {
+      "userId": 6,
+      "productId": 2,
+      "rating": 5,
+      "comment": "nhu hach",
+      "date": "2025-03-24",
+      "id": 2
+    }
+  ],
+  "carts": [
+    {
+      "id": 1,
+      "user": 1,
+      "items": [
+        {
+          "productId": 1,
+          "name": "Product 1",
+          "price": 29.99,
+          "quantity": 2,
+          "imageUrl": "/images/product1.jpg"
+        }
+      ],
+      "total": 59.98
+    },
+    {
+      "user": 6,
+      "items": [
+        {
+          "productId": 1,
+          "name": "Product 1",
+          "price": 29.99,
+          "quantity": 3,
+          "imageUrl": "/images/product1.jpg"
+        }
+      ],
+      "total": 89.97,
+      "id": 2
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "userId": 1,
+      "products": [
+        {
+          "productId": 1,
+          "name": "Product 1",
+          "price": 29.99,
+          "quantity": 2
+        }
+      ],
+      "total": 59.98,
+      "date": "2024-03-24",
+      "status": "completed"
+    }
+  ]
+}

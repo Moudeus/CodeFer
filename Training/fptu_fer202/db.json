@@ -1,0 +1,66 @@
+{
+  "Cars": [
+    {
+      "id": 1,
+      "brand": "Toyota",
+      "model": "Corolla",
+      "year": 2023,
+      "price": "$25,000",
+      "image": "/images/toyota-corolla.jpg"
+    },
+    {
+      "id": 2,
+      "brand": "Honda",
+      "model": "Civic",
+      "year": 2022,
+      "price": "$22,500",
+      "image": "/images/honda-civic.jpg"
+    },
+    {
+      "id": 3,
+      "brand": "Ford",
+      "model": "Mustang",
+      "year": 2021,
+      "price": "$35,000",
+      "image": "/images/ford-mustang.jpg"
+    },
+    {
+      "id": 4,
+      "brand": "BMW",
+      "model": "3 Series",
+      "year": 2020,
+      "price": "$40,000",
+      "image": "/images/bmw-3series.jpg"
+    }
+  ],
+  "UserAccounts": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "1234567",
+      "account_type": "admin",
+      "status": "active"
+    },
+    {
+      "id": 2,
+      "username": "jane",
+      "password": "1234567",
+      "account_type": "user",
+      "status": "inactive"
+    },
+    {
+      "id": 3,
+      "username": "alice",
+      "password": "1234567",
+      "account_type": "user",
+      "status": "active"
+    },
+    {
+      "id": 4,
+      "username": "bob",
+      "password": "1234567",
+      "account_type": "guest",
+      "status": "active"
+    }
+  ]
+}

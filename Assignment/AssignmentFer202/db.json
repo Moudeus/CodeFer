@@ -1,0 +1,384 @@
+{
+  "accounts": [
+    {
+      "id": "1",
+      "username": "john_doe",
+      "email": "john.doe@example.com",
+      "password": "121212",
+      "role": "user",
+      "status": "active"
+    },
+    {
+      "id": "2",
+      "username": "jane_smith",
+      "email": "jane.smith@example.com",
+      "password": "131313",
+      "role": "user",
+      "status": "active"
+    },
+    {
+      "id": "3",
+      "username": "admin_user",
+      "email": "admin@example.com",
+      "password": "141415",
+      "role": "admin",
+      "status": "active"
+    },
+    {
+      "id": "4",
+      "username": "admin_user2",
+      "email": "admin2@example.com",
+      "password": "232323",
+      "role": "admin",
+      "status": "active"
+    },
+    {
+      "status": "inactive",
+      "id": "5",
+      "email": "abc@gmail.com",
+      "username": "depzai",
+      "password": "121212",
+      "role": "user"
+    },
+    {
+      "id": "6",
+      "email": "sonkksondepzai@gmail.com",
+      "username": "121212",
+      "password": "121212",
+      "role": "user",
+      "status": "active"
+    },
+    {
+      "id": "7",
+      "email": "namson1821@gmail.com",
+      "username": "namson1821",
+      "password": "123456",
+      "role": "user",
+      "status": "active"
+    },
+    {
+      "id": "8",
+      "email": "sondnde180896@fpt.edu.vn",
+      "username": "sondnde180896",
+      "password": "123456",
+      "role": "user",
+      "status": "active"
+    },
+    {
+      "id": "8",
+      "email": "sondnde180896@fpt.edu.vn",
+      "username": "sondnde180896",
+      "password": "123456",
+      "role": "user",
+      "status": "active"
+    },
+    {
+      "id": "9",
+      "email": "ngandttds180213@fpt.edu.vn",
+      "username": "ngandttds180213",
+      "password": "123456",
+      "role": "user",
+      "status": "active"
+    },
+    {
+      "id": "10",
+      "email": "limbo04112004@gmail.com",
+      "username": "limbo04112004",
+      "password": "123456",
+      "role": "user",
+      "status": "active"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "776c",
+      "userId": "8",
+      "productId": "1",
+      "rating": 5,
+      "comment": "keke",
+      "date": "2025-03-24T15:40:17.897Z"
+    },
+    {
+      "id": "8075",
+      "userId": "8",
+      "productId": "1",
+      "rating": 1,
+      "comment": "như hạch",
+      "date": "2025-03-24T15:40:40.318Z"
+    },
+    {
+      "id": "410d",
+      "userId": "7",
+      "productId": "1",
+      "rating": 4,
+      "comment": "kkaaa",
+      "date": "2025-03-24T15:54:39.196Z"
+    },
+    {
+      "id": "a5f6",
+      "userId": "2",
+      "productId": "2",
+      "rating": 5,
+      "comment": "bla",
+      "date": "2025-03-24T20:14:21.767Z"
+    },
+    {
+      "id": "933b",
+      "userId": 9,
+      "productId": "1",
+      "rating": 5,
+      "comment": "bla",
+      "date": "2025-03-24T20:24:43.624Z"
+    },
+    {
+      "id": "767d",
+      "userId": "2",
+      "productId": "1",
+      "id": "3d66",
+      "userId": "7",
+      "productId": "3",
+      "rating": 5,
+      "comment": "yeeee",
+      "date": "2025-03-25T01:15:04.162Z"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "name": "T-shirt for professional developer",
+      "price": 250005,
+      "description": "This is one of the best our product, providing AI Agent, supporting while seating of the chair for coding.",
+      "imageUrl": "/images/ao-phong-nam.jpg",
+      "reviews": [1, 3, "fddd", "7c5c", "776c", "3fc3", "2d9e", "933b"]
+    },
+    {
+      "id": "2",
+      "name": "Skimmy girl jean",
+      "price": 450000,
+      "description": "Good jean, Good cotton for good girl, You'll see how beauty you are!",
+      "imageUrl": "/images/quan-jeans-nu.jpg",
+      "reviews": [2, 4]
+    },
+    {
+      "id": "3",
+      "name": "Unisex sport shooes",
+      "price": 80000,
+      "description": "The best shooes ever that Ronaldo begging to buy it!",
+      "imageUrl": "/images/giay-the-thao.jpg",
+      "reviews": []
+    },
+    {
+      "id": "4",
+      "name": "Testing payment product",
+      "price": 10000,
+      "description": "Developer viết vài chữ TypeScript thì không biết gì về ReactJs",
+      "imageUrl": "/images/testing.jpg",
+      "reviews": []
+    }
+  ],
+  "paymentHistories": [
+    {
+      "id": "1742826032342",
+      "userId": 2,
+      "products": [
+        {
+          "id": "2",
+          "name": "Quần jeans nữ skinny",
+          "price": 450000,
+          "description": "Quần jeans ôm sát, tôn dáng, chất liệu co giãn thoải mái.",
+          "imageUrl": "/images/quan-jeans-nu.jpg",
+          "reviews": [2, 4]
+        },
+        {
+          "id": "1",
+          "name": "Áo phông nam cao cấp",
+          "price": 250000,
+          "description": "Áo phông chất liệu cotton thoáng mát, thiết kế trẻ trung.",
+          "imageUrl": "/images/ao-phong-nam.jpg",
+          "reviews": [1, 3]
+        },
+        {
+          "id": "3",
+          "name": "Giày thể thao unisex",
+          "price": 800000,
+          "description": "Giày thể thao đa năng, phù hợp cho cả nam và nữ, đế êm, thiết kế hiện đại.",
+          "imageUrl": "/images/giay-the-thao.jpg",
+          "reviews": []
+        }
+      ],
+      "total": 6850000,
+      "date": "2025-03-24"
+    },
+    {
+      "id": "1742826151582",
+      "userId": 7,
+      "products": [
+        {
+          "id": "3",
+          "name": "Giày thể thao unisex",
+          "price": 800000,
+          "description": "Giày thể thao đa năng, phù hợp cho cả nam và nữ, đế êm, thiết kế hiện đại.",
+          "imageUrl": "/images/giay-the-thao.jpg",
+          "reviews": []
+        },
+        {
+          "id": "1",
+          "name": "Áo phông nam cao cấp",
+          "price": 250000,
+          "description": "Áo phông chất liệu cotton thoáng mát, thiết kế trẻ trung.",
+          "imageUrl": "/images/ao-phong-nam.jpg",
+          "reviews": [1, 3]
+        }
+      ],
+      "total": 3950000,
+      "date": "2025-03-24"
+    },
+    {
+      "id": "1742826879478",
+      "userId": 2,
+      "products": [
+        {
+          "id": "2",
+          "name": "Quần jeans nữ skinny",
+          "price": 450000,
+          "description": "Quần jeans ôm sát, tôn dáng, chất liệu co giãn thoải mái.",
+          "imageUrl": "/images/quan-jeans-nu.jpg",
+          "reviews": [2, 4]
+        },
+        {
+          "id": "3",
+          "name": "Giày thể thao unisex",
+          "price": 800000,
+          "description": "Giày thể thao đa năng, phù hợp cho cả nam và nữ, đế êm, thiết kế hiện đại.",
+          "imageUrl": "/images/giay-the-thao.jpg",
+          "reviews": []
+        }
+      ],
+      "total": 5900000,
+      "date": "2025-03-24"
+    },
+    {
+      "id": "1742826992886",
+      "userId": 2,
+      "products": [
+        {
+          "id": "1",
+          "name": "Áo phông nam cao cấp",
+          "price": 250000,
+          "description": "Áo phông chất liệu cotton thoáng mát, thiết kế trẻ trung.",
+          "imageUrl": "/images/ao-phong-nam.jpg",
+          "reviews": [1, 3]
+        },
+        {
+          "id": "3",
+          "name": "Giày thể thao unisex",
+          "price": 800000,
+          "description": "Giày thể thao đa năng, phù hợp cho cả nam và nữ, đế êm, thiết kế hiện đại.",
+          "imageUrl": "/images/giay-the-thao.jpg",
+          "reviews": []
+        }
+      ],
+      "total": 2350000,
+      "date": "2025-03-24"
+    },
+    {
+      "id": "1742827497111",
+      "userId": 2,
+      "products": [
+        {
+          "id": "1",
+          "name": "Áo phông nam cao cấp",
+          "price": 250000,
+          "description": "Áo phông chất liệu cotton thoáng mát, thiết kế trẻ trung.",
+          "imageUrl": "/images/ao-phong-nam.jpg",
+          "reviews": [1, 3]
+        },
+        {
+          "id": "2",
+          "name": "Quần jeans nữ skinny",
+          "price": 450000,
+          "description": "Quần jeans ôm sát, tôn dáng, chất liệu co giãn thoải mái.",
+          "imageUrl": "/images/quan-jeans-nu.jpg",
+          "reviews": [2, 4]
+        }
+      ],
+      "total": 3350000,
+      "date": "2025-03-24"
+    },
+    {
+      "id": "10091252",
+      "userId": 6,
+      "products": [
+        {
+          "id": "4",
+          "name": "Testing payment product",
+          "price": 10000,
+          "description": "Developer viết vài chữ TypeScript thì không biết gì về ReactJs",
+          "imageUrl": "/images/testing.jpg",
+          "reviews": []
+        }
+      ],
+      "total": 10000,
+      "date": "2025-03-24"
+    }
+  ],
+  "carts": [
+    {
+      "user": 1,
+      "items": [
+        {
+          "productId": "2",
+          "quantity": 2
+        },
+        {
+          "productId": "1",
+          "quantity": 4
+        },
+        {
+          "productId": "3",
+          "quantity": 5
+        }
+      ],
+      "total": 5900000,
+      "id": "2183"
+    },
+    {
+      "user": 2,
+      "items": [
+        {
+          "productId": "3",
+          "quantity": 6
+        },
+        {
+          "productId": "2",
+          "quantity": 2
+        }
+      ],
+      "total": 1380000,
+      "id": "2-1742820746782"
+    },
+    {
+      "id": "6-1742837888053",
+      "user": 6,
+      "items": [],
+      "total": 0
+    },
+    {
+      "id": "9-1742847861541",
+      "user": 9,
+      "items": [],
+      "total": 0
+    },
+    {
+      "id": "7-1742861239735",
+      "user": 7,
+      "items": [
+        {
+          "productId": "1",
+          "quantity": 2
+        }
+      ],
+      "total": 500010
+    }
+  ]
+}

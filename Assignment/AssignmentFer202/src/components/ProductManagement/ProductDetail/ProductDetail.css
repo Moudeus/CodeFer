@@ -1,0 +1,17 @@
+.product-detail-container {
+    padding: 20px;
+  }
+  
+  .product-detail-card {
+    padding: 20px;
+  }
+  
+  .product-detail-image {
+    height: 300px;
+    object-fit: cover;
+  }
+  
+  .review-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
